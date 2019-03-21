@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 164527448945.dkr.ecr.eu-west-1.amazonaws.com/mpalop/test-spring-app
+  tag: 0.0.3
   pullPolicy: IfNotPresent
 service:
   name: test-spring-app
